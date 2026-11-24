@@ -5,22 +5,26 @@ Cohort: Fall 2026 – Spring 2027
 Faculty Advisors: Prof. Alaa Bakhti & Prof. Rosemary Obi
 Group: DSA 3
 
-MEMBER NOTEBOOK LINKS & TASK REPOSITORIES:
+MEMBER NOTEBOOK LINKS & TASK REPOSITORIES (ONE-CLICK COLAB):
 --------------------------------------------------------------------------------
 1. Lakhveer Singh — Task 1: Full-History Context Strategies
-   Notebook File: Lakhveer_Singh_Task1_Full_History_Context.ipynb
-   Colab URL: https://colab.research.google.com/drive/1_dsa3_lakhveer_full_history_eval
+   Notebook File: notebooks/Lakhveer_Singh_Task1_Full_History_Context.ipynb
+   Google Colab: https://colab.research.google.com/github/Naveen-Mekala/conversational-memory-evaluation/blob/main/notebooks/Lakhveer_Singh_Task1_Full_History_Context.ipynb
    Description: Benchmarking Complete History vs. Sliding Window (N=12) vs. Truncated History (500 tokens). Demonstrates context saturation, quadratic latency scaling, and the Lost in the Middle effect.
 
 2. Mekala Naveen Venkata Sai Kumar — Task 2: Summarisation Strategies
-   Notebook File: Mekala_Naveen_Task2_Summarisation_Strategies.ipynb
-   Colab URL: https://colab.research.google.com/drive/1_dsa3_naveen_summarisation_eval
+   Notebook File: notebooks/Mekala_Naveen_Task2_Summarisation_Strategies.ipynb
+   Google Colab: https://colab.research.google.com/github/Naveen-Mekala/conversational-memory-evaluation/blob/main/notebooks/Mekala_Naveen_Task2_Summarisation_Strategies.ipynb
    Description: Benchmarking Fixed-Length Summary (250 tokens), Periodic Summary (N=4 turns), and Hierarchical Multi-Level Summary. Addresses Research Gap G3 with fine-grained fact vulnerability analysis across names, dates, preferences, and temporal overwrites.
 
 3. Krishna Chetry — Task 3: Conversational Retrieval Strategies
-   Notebook File: Krishna_Chetry_Task3_Conversational_Retrieval.ipynb
-   Colab URL: https://colab.research.google.com/drive/1_dsa3_krishna_retrieval_eval
+   Notebook File: notebooks/Krishna_Chetry_Task3_Conversational_Retrieval.ipynb
+   Google Colab: https://colab.research.google.com/github/Naveen-Mekala/conversational-memory-evaluation/blob/main/notebooks/Krishna_Chetry_Task3_Conversational_Retrieval.ipynb
    Description: Benchmarking Lexical BM25, Dense Semantic Vector Retrieval, and Hybrid Reciprocal Rank Fusion (RRF, k=60). Addresses Research Gap G4 with decoupled retrieval recall vs. generation F1.
 
-Project Repository: https://github.com/epita-dsa/conversational-memory-evaluation
+Official Project Repository: https://github.com/Naveen-Mekala/conversational-memory-evaluation
 Common Benchmark Dataset Slice: data/locomo_evaluation_slice.json (12 sessions, 48 turns, 10 ground-truth probes)
+Slide Presentation Deck: slides/DSA3_Modeling_Defense.pptx
+Defense Script & Q&A: docs/Defense_Script_and_Talking_Points.md
+Completed Literature Review (Deliverable 2): docs/Final_Literature_Review_EPITA.docx
+Literature Review Outline (Deliverable 1): docs/Literature_Review_Outline_EPITA.docx
