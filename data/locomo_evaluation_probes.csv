@@ -1,0 +1,11 @@
+query_id,question,ground_truth,fact_type,evidence_turns,session_id
+Q01,What is the name and breed of my adopted dog?,"Barnaby, a 2-year-old golden retriever",Entity/Name,1; 2,Session_01
+Q02,When was my cardiology checkup scheduled with Dr. Moreau?,"October 14, 2025 at 10:30 AM",Numerical Date,5; 6,Session_02
+Q03,What are the exact dates and city of the IEEE AI Summit where I presented?,"November 12 to 15, 2025 in Munich",Event / Date,17; 18,Session_05
+Q04,Who is my co-author on the European Horizon NLP Consortium grant proposal?,Dr. Elena Rostova,Relationship,25; 26,Session_07
+Q05,"What is my current milk preference for coffee orders, and what milk did I previously use?",Current preference is almond milk; previously used oat milk but switched due to inflammation,Preference / Temporal Update,9; 29; 30; 31,Session_08
+Q06,What flight number did I book from Paris to Frankfurt in December 2025?,"Flight LH452 departing on December 3, 2025",Numerical Date / Entity,33; 34,Session_09
+Q07,What is the full name of the junior doctoral researcher I am mentoring?,Marcus Vance,Entity/Name,41; 42,Session_11
+Q08,On what date was the annual research cloud grant renewed?,"January 8, 2026",Numerical Date,45; 46,Session_12
+Q09,Where did I go for a weekend trail hike with Barnaby in October?,Fontainebleau forest,Event / Location,13; 14,Session_04
+Q10,What dietary intolerances or milk bans do I have?,Strict lactose intolerance and allergy to standard dairy and oat milk,Preference / Constraint,11; 29; 31,Session_03 / Session_08

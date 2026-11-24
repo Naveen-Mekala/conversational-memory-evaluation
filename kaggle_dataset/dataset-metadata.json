@@ -1,0 +1,10 @@
+{
+  "title": "LoCoMo Conversational Memory Evaluation Slice",
+  "id": "naveenmekala/locomo-conversational-memory",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0"
+    }
+  ],
+  "description": "Benchmark evaluation dataset for evaluating long-term conversational memory strategies in LLM agents. Derived from the LoCoMo benchmark (Maharana et al., ACL 2024). Contains 12 longitudinal dialogue sessions (48 total turns) and 10 fact-probe evaluation queries testing factual retention, temporal reasoning, user preferences, and knowledge updates across sessions."
+}
