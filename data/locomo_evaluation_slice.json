@@ -1,0 +1,434 @@
+{
+  "benchmark": "LoCoMo-Evaluation-Slice (EPITA Action Learning Fall 2026)",
+  "total_sessions": 12,
+  "total_turns": 48,
+  "dialogues": [
+    {
+      "session_id": "Session_01",
+      "timestamp": "2025-09-01T09:30:00Z",
+      "turns": [
+        {
+          "turn_id": 1,
+          "speaker": "User",
+          "text": "Hi! I just adopted a 2-year-old golden retriever named Barnaby from the shelter yesterday."
+        },
+        {
+          "turn_id": 2,
+          "speaker": "Assistant",
+          "text": "Congratulations! Barnaby is a lovely name. Golden retrievers are wonderfully loyal and energetic companions."
+        },
+        {
+          "turn_id": 3,
+          "speaker": "User",
+          "text": "He seems very active. I need to make sure I buy the right hip-support kibble for him."
+        },
+        {
+          "turn_id": 4,
+          "speaker": "Assistant",
+          "text": "Large active breeds benefit greatly from glucosamine and chondroitin enriched diets to support joint health."
+        }
+      ]
+    },
+    {
+      "session_id": "Session_02",
+      "timestamp": "2025-09-12T14:15:00Z",
+      "turns": [
+        {
+          "turn_id": 5,
+          "speaker": "User",
+          "text": "Can you help me log a medical appointment? My cardiologist Dr. Moreau booked my follow-up for October 14, 2025 at 10:30 AM."
+        },
+        {
+          "turn_id": 6,
+          "speaker": "Assistant",
+          "text": "Logged: Follow-up cardiology check with Dr. Moreau on October 14, 2025 at 10:30 AM."
+        },
+        {
+          "turn_id": 7,
+          "speaker": "User",
+          "text": "Please make sure you remind me to fast for 8 hours prior to that checkup."
+        },
+        {
+          "turn_id": 8,
+          "speaker": "Assistant",
+          "text": "Noted. You will need to begin fasting at 02:30 AM on October 14."
+        }
+      ]
+    },
+    {
+      "session_id": "Session_03",
+      "timestamp": "2025-09-25T11:00:00Z",
+      "turns": [
+        {
+          "turn_id": 9,
+          "speaker": "User",
+          "text": "I am updating my morning coffee routine. I have a strict dietary preference for oat-based cappuccino with zero sugar."
+        },
+        {
+          "turn_id": 10,
+          "speaker": "Assistant",
+          "text": "Understood! Your preference is recorded: zero-sugar oat milk cappuccino for morning orders."
+        },
+        {
+          "turn_id": 11,
+          "speaker": "User",
+          "text": "Also, I cannot tolerate standard dairy or lactose under any circumstances."
+        },
+        {
+          "turn_id": 12,
+          "speaker": "Assistant",
+          "text": "Recorded strict lactose intolerance in your profile."
+        }
+      ]
+    },
+    {
+      "session_id": "Session_04",
+      "timestamp": "2025-10-05T16:45:00Z",
+      "turns": [
+        {
+          "turn_id": 13,
+          "speaker": "User",
+          "text": "We are planning a weekend hike in the Fontainebleau forest with Barnaby."
+        },
+        {
+          "turn_id": 14,
+          "speaker": "Assistant",
+          "text": "Fontainebleau has magnificent dog-friendly trails. Remember to carry a portable water dispenser for Barnaby."
+        },
+        {
+          "turn_id": 15,
+          "speaker": "User",
+          "text": "Good call. It will be our first multi-hour trail hike together."
+        },
+        {
+          "turn_id": 16,
+          "speaker": "Assistant",
+          "text": "Enjoy the sandstone trails! Keep an eye out for burrs in his coat."
+        }
+      ]
+    },
+    {
+      "session_id": "Session_05",
+      "timestamp": "2025-10-22T08:20:00Z",
+      "turns": [
+        {
+          "turn_id": 17,
+          "speaker": "User",
+          "text": "I have been invited to give an oral presentation at the IEEE AI Summit in Munich, running from November 12 to 15, 2025."
+        },
+        {
+          "turn_id": 18,
+          "speaker": "Assistant",
+          "text": "That is an excellent milestone! The IEEE AI Summit in Munich (Nov 12-15) is a premier venue."
+        },
+        {
+          "turn_id": 19,
+          "speaker": "User",
+          "text": "My talk is titled 'Neuro-Symbolic Reasoning in Long-Context Conversational Agents'."
+        },
+        {
+          "turn_id": 20,
+          "speaker": "Assistant",
+          "text": "A fascinating topic addressing position bias and long-term memory constraints."
+        }
+      ]
+    },
+    {
+      "session_id": "Session_06",
+      "timestamp": "2025-11-02T10:00:00Z",
+      "turns": [
+        {
+          "turn_id": 21,
+          "speaker": "User",
+          "text": "Reviewing my Munich presentation slides today. Any advice on structuring the trade-off section?"
+        },
+        {
+          "turn_id": 22,
+          "speaker": "Assistant",
+          "text": "Highlight the Pareto frontier: show how context length trade-offs against inference latency and API cost."
+        },
+        {
+          "turn_id": 23,
+          "speaker": "User",
+          "text": "I will include our empirical token consumption curves comparing full history against retrieval."
+        },
+        {
+          "turn_id": 24,
+          "speaker": "Assistant",
+          "text": "That empirical grounding will strongly resonate with researchers facing production latency limits."
+        }
+      ]
+    },
+    {
+      "session_id": "Session_07",
+      "timestamp": "2025-11-18T15:30:00Z",
+      "turns": [
+        {
+          "turn_id": 25,
+          "speaker": "User",
+          "text": "Back from Munich! I met Dr. Elena Rostova and we agreed to co-author a grant proposal for the European Horizon NLP Consortium."
+        },
+        {
+          "turn_id": 26,
+          "speaker": "Assistant",
+          "text": "Welcome back! Collaborating with Dr. Elena Rostova on the European Horizon NLP Consortium is a huge opportunity."
+        },
+        {
+          "turn_id": 27,
+          "speaker": "User",
+          "text": "Our grant focuses on robust continual learning and memory architectures for healthcare dialog systems."
+        },
+        {
+          "turn_id": 28,
+          "speaker": "Assistant",
+          "text": "A vital research direction where lifelong patient memory without hallucinations is critical."
+        }
+      ]
+    },
+    {
+      "session_id": "Session_08",
+      "timestamp": "2025-11-28T09:10:00Z",
+      "turns": [
+        {
+          "turn_id": 29,
+          "speaker": "User",
+          "text": "Important update regarding my dietary preferences: my doctor noticed an inflammatory reaction, so I have completely switched from oat milk to almond milk."
+        },
+        {
+          "turn_id": 30,
+          "speaker": "Assistant",
+          "text": "Updated preference: You have switched from oat milk to almond milk. All future coffee orders will use almond milk."
+        },
+        {
+          "turn_id": 31,
+          "speaker": "User",
+          "text": "Yes, please overwrite my old oat milk preference so I don't receive oat milk recommendations."
+        },
+        {
+          "turn_id": 32,
+          "speaker": "Assistant",
+          "text": "Confirmed: Active preference is now almond milk (zero sugar). Old oat milk preference is archived."
+        }
+      ]
+    },
+    {
+      "session_id": "Session_09",
+      "timestamp": "2025-12-01T17:00:00Z",
+      "turns": [
+        {
+          "turn_id": 33,
+          "speaker": "User",
+          "text": "I booked flight LH452 from Paris Charles de Gaulle to Frankfurt, departing on December 3, 2025 at 07:45 AM."
+        },
+        {
+          "turn_id": 34,
+          "speaker": "Assistant",
+          "text": "Booked: Flight LH452 (CDG to FRA) on December 3, 2025, departure 07:45 AM."
+        },
+        {
+          "turn_id": 35,
+          "speaker": "User",
+          "text": "I will return on December 6 via train."
+        },
+        {
+          "turn_id": 36,
+          "speaker": "Assistant",
+          "text": "Itinerary updated with return rail travel on December 6."
+        }
+      ]
+    },
+    {
+      "session_id": "Session_10",
+      "timestamp": "2025-12-14T11:40:00Z",
+      "turns": [
+        {
+          "turn_id": 37,
+          "speaker": "User",
+          "text": "Barnaby has completed his introductory obedience course with flying colors!"
+        },
+        {
+          "turn_id": 38,
+          "speaker": "Assistant",
+          "text": "Great news! Barnaby must be proud. Obedience training pays lifelong dividends."
+        },
+        {
+          "turn_id": 39,
+          "speaker": "User",
+          "text": "He mastered recall and heel commands across distracting environments."
+        },
+        {
+          "turn_id": 40,
+          "speaker": "Assistant",
+          "text": "Excellent progress for a 2-year-old golden retriever."
+        }
+      ]
+    },
+    {
+      "session_id": "Session_11",
+      "timestamp": "2025-12-28T13:20:00Z",
+      "turns": [
+        {
+          "turn_id": 41,
+          "speaker": "User",
+          "text": "I have officially taken on mentorship of junior doctoral researcher Marcus Vance in our laboratory."
+        },
+        {
+          "turn_id": 42,
+          "speaker": "Assistant",
+          "text": "Congratulations on the mentorship role! Marcus Vance will benefit greatly from your guidance."
+        },
+        {
+          "turn_id": 43,
+          "speaker": "User",
+          "text": "We are specifically working on temporal memory graphs and multi-turn agent benchmarks."
+        },
+        {
+          "turn_id": 44,
+          "speaker": "Assistant",
+          "text": "Directly aligned with your core Action Learning and European Consortium research themes."
+        }
+      ]
+    },
+    {
+      "session_id": "Session_12",
+      "timestamp": "2026-01-08T10:15:00Z",
+      "turns": [
+        {
+          "turn_id": 45,
+          "speaker": "User",
+          "text": "Just processed the annual renewal for our research group's AWS cloud computing grant on January 8, 2026."
+        },
+        {
+          "turn_id": 46,
+          "speaker": "Assistant",
+          "text": "Recorded: AWS research cloud grant renewed on January 8, 2026."
+        },
+        {
+          "turn_id": 47,
+          "speaker": "User",
+          "text": "This guarantees our GPU compute allocation through the entire 2026 academic year."
+        },
+        {
+          "turn_id": 48,
+          "speaker": "Assistant",
+          "text": "A crucial prerequisite secured for all large-scale modeling and benchmark evaluations."
+        }
+      ]
+    }
+  ],
+  "evaluation_probes": [
+    {
+      "query_id": "Q01",
+      "question": "What is the name and breed of my adopted dog?",
+      "ground_truth": "Barnaby, a 2-year-old golden retriever",
+      "fact_type": "Entity/Name",
+      "evidence_turns": [
+        1,
+        2
+      ],
+      "session": "Session_01"
+    },
+    {
+      "query_id": "Q02",
+      "question": "When was my cardiology checkup scheduled with Dr. Moreau?",
+      "ground_truth": "October 14, 2025 at 10:30 AM",
+      "fact_type": "Numerical Date",
+      "evidence_turns": [
+        5,
+        6
+      ],
+      "session": "Session_02"
+    },
+    {
+      "query_id": "Q03",
+      "question": "What are the exact dates and city of the IEEE AI Summit where I presented?",
+      "ground_truth": "November 12 to 15, 2025 in Munich",
+      "fact_type": "Event / Date",
+      "evidence_turns": [
+        17,
+        18
+      ],
+      "session": "Session_05"
+    },
+    {
+      "query_id": "Q04",
+      "question": "Who is my co-author on the European Horizon NLP Consortium grant proposal?",
+      "ground_truth": "Dr. Elena Rostova",
+      "fact_type": "Relationship",
+      "evidence_turns": [
+        25,
+        26
+      ],
+      "session": "Session_07"
+    },
+    {
+      "query_id": "Q05",
+      "question": "What is my current milk preference for coffee orders, and what milk did I previously use?",
+      "ground_truth": "Current preference is almond milk; previously used oat milk but switched due to inflammation",
+      "fact_type": "Preference / Temporal Update",
+      "evidence_turns": [
+        9,
+        29,
+        30,
+        31
+      ],
+      "session": "Session_08"
+    },
+    {
+      "query_id": "Q06",
+      "question": "What flight number did I book from Paris to Frankfurt in December 2025?",
+      "ground_truth": "Flight LH452 departing on December 3, 2025",
+      "fact_type": "Numerical Date / Entity",
+      "evidence_turns": [
+        33,
+        34
+      ],
+      "session": "Session_09"
+    },
+    {
+      "query_id": "Q07",
+      "question": "What is the full name of the junior doctoral researcher I am mentoring?",
+      "ground_truth": "Marcus Vance",
+      "fact_type": "Entity/Name",
+      "evidence_turns": [
+        41,
+        42
+      ],
+      "session": "Session_11"
+    },
+    {
+      "query_id": "Q08",
+      "question": "On what date was the annual research cloud grant renewed?",
+      "ground_truth": "January 8, 2026",
+      "fact_type": "Numerical Date",
+      "evidence_turns": [
+        45,
+        46
+      ],
+      "session": "Session_12"
+    },
+    {
+      "query_id": "Q09",
+      "question": "Where did I go for a weekend trail hike with Barnaby in October?",
+      "ground_truth": "Fontainebleau forest",
+      "fact_type": "Event / Location",
+      "evidence_turns": [
+        13,
+        14
+      ],
+      "session": "Session_04"
+    },
+    {
+      "query_id": "Q10",
+      "question": "What dietary intolerances or milk bans do I have?",
+      "ground_truth": "Strict lactose intolerance and allergy to standard dairy and oat milk",
+      "fact_type": "Preference / Constraint",
+      "evidence_turns": [
+        11,
+        29,
+        31
+      ],
+      "session": "Session_03 / Session_08"
+    }
+  ]
+}

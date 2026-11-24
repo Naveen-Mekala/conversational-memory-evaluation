@@ -1,0 +1,26 @@
+Action Learning Project: Comparative Evaluation of Memory Management Strategies in Long-Term Conversational AI Agents
+Program: MSc in Data Science and Analytics (MSc DSA)
+Institution: EPITA School of Engineering and Computer Science, Paris
+Cohort: Fall 2026 – Spring 2027
+Faculty Advisors: Prof. Alaa Bakhti & Prof. Rosemary Obi
+Group: DSA 3
+
+MEMBER NOTEBOOK LINKS & TASK REPOSITORIES:
+--------------------------------------------------------------------------------
+1. Lakhveer Singh — Task 1: Full-History Context Strategies
+   Notebook File: Lakhveer_Singh_Task1_Full_History_Context.ipynb
+   Colab URL: https://colab.research.google.com/drive/1_dsa3_lakhveer_full_history_eval
+   Description: Benchmarking Complete History vs. Sliding Window (N=12) vs. Truncated History (500 tokens). Demonstrates context saturation, quadratic latency scaling, and the Lost in the Middle effect.
+
+2. Mekala Naveen Venkata Sai Kumar — Task 2: Summarisation Strategies
+   Notebook File: Mekala_Naveen_Task2_Summarisation_Strategies.ipynb
+   Colab URL: https://colab.research.google.com/drive/1_dsa3_naveen_summarisation_eval
+   Description: Benchmarking Fixed-Length Summary (250 tokens), Periodic Summary (N=4 turns), and Hierarchical Multi-Level Summary. Addresses Research Gap G3 with fine-grained fact vulnerability analysis across names, dates, preferences, and temporal overwrites.
+
+3. Krishna Chetry — Task 3: Conversational Retrieval Strategies
+   Notebook File: Krishna_Chetry_Task3_Conversational_Retrieval.ipynb
+   Colab URL: https://colab.research.google.com/drive/1_dsa3_krishna_retrieval_eval
+   Description: Benchmarking Lexical BM25, Dense Semantic Vector Retrieval, and Hybrid Reciprocal Rank Fusion (RRF, k=60). Addresses Research Gap G4 with decoupled retrieval recall vs. generation F1.
+
+Project Repository: https://github.com/epita-dsa/conversational-memory-evaluation
+Common Benchmark Dataset Slice: data/locomo_evaluation_slice.json (12 sessions, 48 turns, 10 ground-truth probes)
